@@ -24,5 +24,6 @@ nazerbox.query('DELAY 100\n')
 sleep(1)
 nazerbox.query('NUM 5\n')
 sleep(1)
-nazerbox.write('ARM\n')
+nazerbox.write('ARM\n')  
+# Generate 5 impulses with WIDTH 500 ms and DELAY 100 ms from 1PPS impulse
 sleep(20)
